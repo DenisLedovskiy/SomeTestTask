@@ -22,6 +22,7 @@ class MainView: PView {
         collectionView.showsVerticalScrollIndicator = false
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.backgroundColor = .clear
+        collectionView.contentInset.top = 20
         ProfileHeaderReusableView.register(collectionView)
         ChildrenHeaderView.register(collectionView)
         ChildrenFooterView.register(collectionView)
