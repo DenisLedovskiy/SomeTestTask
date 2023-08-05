@@ -1,11 +1,3 @@
-//
-//  PUITextField.swift
-//  SomeTestTask
-//
-//  Created by Денис Ледовский on 04.08.2023.
-//
-
-import Foundation
 import UIKit
 
 class PUITextField: UITextField, PViewSizesProtocol {

@@ -15,7 +15,7 @@ class AppCoordinator {
     func start() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.overrideUserInterfaceStyle = .light
-        let module = MainViewController()
+        let module = MainBuilder.buildMainScreen()
         window?.rootViewController = module
         window?.makeKeyAndVisible()
     }
