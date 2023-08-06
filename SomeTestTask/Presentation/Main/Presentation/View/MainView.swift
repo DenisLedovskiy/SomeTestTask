@@ -133,6 +133,7 @@ extension MainView {
     }
 }
 
+//MARK: - TapGesture
 extension MainView {
     private func setTapGestureRecognizer() {
         let tapScreen = UITapGestureRecognizer(target: self, action: #selector(tapFunc))
