@@ -10,7 +10,6 @@ final class MainPresentation {
     private weak var view: MainViewInput?
     private let navigator: MainNavigator?
     private let interactor: MainInteractor?
-    private let service = MainService.shared
 
     init(viewInput: MainViewInput, navigator: MainNavigator, interactor: MainInteractor) {
         view = viewInput
